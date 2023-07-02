@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Divya </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.1/css/all.min.css" integrity="sha512-3M00D/rn8n+2ZVXBO9Hib0GKNpkm8MSUU/e2VNthDyBYxKWG+BftNYYcuEjXlyrSO637tidzMBXfE7sQm0INUg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class ="cotainer">
+            <nav>
+                <img src="images/portfolio.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#profexp">Professional Exposure</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact me</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span> Devi Divya Sri </span><br>Perni From India</h1>
+            </div>
+        </div>
+    </div>
+    <!--------------------About------------->
+    <div id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Divyaimg.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About <span>Me</span></h1>
+                    <p class="me">Hi i am devi divyasri
+                        A paragraph is defined as 
+                        “a group of sentences or a single 
+                        sentence that forms a unit” 
+                        (Lunsford and Connors 116). Length and 
+                        appearance do not determine whether a 
+                        section in a paper is a paragraph. 
+                        For instance, in some styles of writing
+                        , particularly journalistic styles, 
+                        a paragraph can be just one sentence long.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('certifications')">Certifications</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li><span>2024</span><br>B.Tech Information Technology at Velagapudi Ramakrishna Siddhartha Engineering College<br><span>CGPA : </span>9.12</li>
+                            <li><span>2020</span><br>Intermediate MPC at Sri Chaithanya Junior College<br><span>CGPA : </span>9.83</li>
+                            <li><span>2018</span><br>Schooling at Sri Chaithanya Techno Schol<br><span>CGPA : </span>10.00</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="certifications">
+                        <ul>
+                            <li><span>Python Institute Open-EDG</span><br>Badged and Certified as PCEP-Certified Entry Level Python Programmer.</li>
+                            <li><span>Cisco Networking Academy</span><br>Badged and certified for Introduction to Cyber Security,Cyber Security Essentials,Networking Essentials.</li>
+                            <li><span>Cisco Networking Academy</span><br>Certified for C++ Essentials.</li>
+                            <li><span>Cisco Networking Academy</span><br>Badged and certified for CCNA-1 Cisco Certified Network Associate.</li>
+                            <li><span>Google Cloud Platform</span><br>Badged and certified as Cloud digital leader.</li>
+                            <li><span>IIT Bhubaneswar</span><br>Certified for completing workshop on Adroid app Development.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <!----------------------Profesional Exposure------------------------>
+    <div id="profexp" class="profexp">
+        <div class="container">
+            <h2 class="sub-title">My <span> Journey</span></h2><br>
+
+            <div class="row">
+                <div class="exp-col-1">
+                    <h3 class="title">Web Development Experience</h3>
+
+                    <div class="exp-box">
+                        <div class="exp-content">
+                            <div class="content">
+                                <div class="year"><i class="fas fa-calendar-alt"></i> 2023</div>
+                                <h3>Web Developer at Oasis Infobyte</h3>
+                                <p>MAin things done in the internship</p>
+                            </div>
+                        </div>
+
+                        <div class="exp-content">
+                            <div class="content">
+                                <div class="year"><i class="fas fa-calendar-alt"></i> 2023</div>
+                                <h3>Mern-stack Developer Codegnan IT Solutions</h3>
+                                <p>MAin things done in the internship</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="exp-col-2">
+                    <h3 class="title">Professional Experience</h3>
+
+                    <div class="exp-box">
+                        <div class="exp-content">
+                            <div class="content">
+                                <div class="year"><i class="fas fa-calendar-alt"></i> 2023</div>
+                                <h3>Security Professional at Avantel Ltd</h3>
+                                <p>MAin things done in the internship</p>
+                            </div>
+                        </div>
+
+                        <div class="exp-content">
+                            <div class="content">
+                                <div class="year"><i class="fas fa-calendar-alt"></i> 2023</div>
+                                <h3>Student intern at Cybersec Info Tech through Teachnook</h3>
+                                <p>MAin things done in the internship</p>
+                            </div>
+                        </div>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!---------------------------Projects-------------------------->
+
+    <div class="projects" id="projects">
+        <h2 class="sub-title">My<span> Projects</span></h2><br>
+        <div class="pro-row">
+            <div class="pro-col">
+                <i class="fas fa-lock"></i> &nbsp;<i class="fas fa-shield-alt"></i>
+                <h2>Key-logger Project</h2>
+                <p>Something about the project</p>
+                <a href="#">learn more</a>
+            </div>
+            <div class="pro-col">
+                <i class="fas fa-code"></i>
+                <h2>Automation of Electrical Appliances</h2>
+                <p>Something about the project</p>
+                <a href="#">learn more</a>
+            </div>
+            <div class="pro-col">
+                <i class="fas fa-network-wired"></i>
+                <h2>Implementation of AODV</h2>
+                <p>Something about the project</p>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+
+<!----------------------skills--------------------->
+<h2 class="sub-title">My<span> Skills</span></h2><br>
+    <div class="skills" id="skills">
+        
+        <div class="skills-row">
+            <div class="skillscol">
+                <h3 class="title">Coding Skills</h3>
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>Html,Css<span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>JavaScript<span>80%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>C,C++<span>70%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>Python<span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>Java<span>75%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skillscol">
+                <h3 class="title">Professional Skills</h3>
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>Web Development<span>80%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>Cyber Security,Networks<span>85%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>DataBase Mangement System<span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>Artificial Intelligene<span>65%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>UI Design<span>60%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-------------------------contact------------------------>
+    <h1 class="sub-title">Contact <span>Me</span></h1>
+    <div class="contact" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <p><i class="fas fa-envelope"></i>devidivyasri03@gmail.com</p>
+                    <p><i class="fas fa-phone-square"></i></i>6300782218</p>    
+                    <div class="social-icons">
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                        <a href=""><i class="fab fa-github"></i></a>
+                        <a href=""><i class="fab fa-facebook"></i></a> 
+                        <a href=""><i class="fab fa-telegram"></i></a>
+                    </div><br>
+                    <a href="https://1drv.ms/b/s!Av6eIvcnj4yYhId4aidVGlGP5fbnUA?e=W0MHmY" download class="btn-btn-2" >Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn-btn-2">Submit</button>
+                    </form>
+                </div>
+            </div>    
+        </div>
+        <div class="copyright">
+            <p>Copyright © rights are reserved,made with <i class="fas fa-heart"></i> DeviDivyaSri Perni.</p>
+        </div>
+    </div>
+    
+    <script>
+
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        var menu = document.getElementById("sidemenu")
+
+        function openmenu(){
+            menu.style.right = "0";
+        }
+        function closemenu(){
+            menu.style.right = "-200px";
+        }
+    </script>
+    
+</body>
+</html>   
