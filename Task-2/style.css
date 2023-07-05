@@ -177,6 +177,7 @@ nav ul li a:hover::after{
     flex-direction: column;
     padding-bottom: 5rem;
     font-family: 'poppins', 'sans-serif',Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
 }
  
 .profexp .row{
@@ -247,6 +248,7 @@ nav ul li a:hover::after{
 }
 .exp-content .content h3{
     font-size: 20px;
+    margin-bottom: 10px;
 }
 .exp-content .content p{
     font-size: 16px;
@@ -273,6 +275,7 @@ nav ul li a:hover::after{
     font-weight: 300;
     border-radius: 10px;
     transition: background 0.5s, transform 0.5s;
+    text-align: justify;
 }
 .pro-row .pro-col i{
     font-size: 35px;
