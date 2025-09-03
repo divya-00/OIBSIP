@@ -45,11 +45,11 @@ This repository contains **three tasks** completed during the **Oasis Infobyte I
 
 ## Tasks
 
-* **Task 1**
+**Task 1**
 * I have desinged an attractive landing page for an VPN Software that shows the content about the software and has contents regarding that like reviews of customers and services etc,..
-* **Task 2**
+**Task 2**
 * I have desinged a personal portifolio showcasing my skills and experiennce
-* **Task 3**
+**Task 3**
 * I have desinged a website that can convert temperature from Celcius to Fahrenheit and viceversa.
 
 ## Features
