@@ -1,4 +1,4 @@
-# OIBSIP Internship Projects
+# Oasis Infobyte Internship Projects
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
